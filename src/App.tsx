@@ -1,0 +1,16 @@
+import Input from "./components/Input";
+import Button from "./components/Button";
+import Container from "./components/Container";
+function App() {
+  return <main>
+    {/* <p>
+      <Button className="button">A Button</Button>
+    </p>
+    <p>
+      <Button className="button" href="https://www.google.com">A Link</Button>
+    </p> */}
+    <Container as={Button} >Click me</Container>
+  </main>;
+}
+
+export default App;
